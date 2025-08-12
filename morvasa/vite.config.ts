@@ -8,4 +8,10 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  server: { open: true },
+  resolve: {
+    alias: {
+      "@": "/src"
+    }
+  }
 })
